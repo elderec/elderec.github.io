@@ -16,8 +16,22 @@ comments: true
   </article>
 
 {% include related.html %}
+
+<div>
+	<span class='st_sharethis_large' displayText='ShareThis'></span>
+	<span class='st_facebook_large' displayText='Facebook'></span>
+	<span class='st_twitter_large' displayText='Tweet'></span>
+	<span class='st_linkedin_large' displayText='LinkedIn'></span>
+	<span class='st_pinterest_large' displayText='Pinterest'></span>
+	<span class='st_email_large' displayText='Email'></span>
+	<span class='st_print_large' displayText='Print'></span>
+</div>
   
 {% if page.comments %}
+<script type="text/javascript">var switchTo5x=true;</script>
+<script type="text/javascript" src="https://ws.sharethis.com/button/buttons.js"></script>
+<script type="text/javascript">stLight.options({publisher: "bae7dead-fc0d-41ac-bdf6-1a5aa6ba23e7", doNotHash: false, doNotCopy: false, hashAddressBar: false});</script>
+
   <div id="disqus_thread"></div>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES * * */
