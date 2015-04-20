@@ -15,17 +15,21 @@ comments: true
     {{ content }}
   </article>
 
-{% include related.html %}
-
+<h3>Share This Post</h3>
 <div>
-	<span class='st_sharethis_large' displayText='ShareThis'></span>
-	<span class='st_facebook_large' displayText='Facebook'></span>
-	<span class='st_twitter_large' displayText='Tweet'></span>
-	<span class='st_linkedin_large' displayText='LinkedIn'></span>
-	<span class='st_pinterest_large' displayText='Pinterest'></span>
-	<span class='st_email_large' displayText='Email'></span>
-	<span class='st_print_large' displayText='Print'></span>
+  <p>
+  <span class='st_sharethis_large' displayText='ShareThis'></span>
+  <span class='st_facebook_large' displayText='Facebook'></span>
+  <span class='st_twitter_large' displayText='Tweet'></span>
+  <span class='st_linkedin_large' displayText='LinkedIn'></span>
+  <span class='st_pinterest_large' displayText='Pinterest'></span>
+  <span class='st_email_large' displayText='Email'></span>
+  <span class='st_print_large' displayText='Print'></span>
+  </p>
 </div>
+
+
+{% include related.html %}
   
 {% if page.comments %}
 <script type="text/javascript">var switchTo5x=true;</script>
