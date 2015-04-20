@@ -4,7 +4,7 @@ title: elderec.org
 description: > # this means to ignore newlines until "baseurl:"
   random technical musings
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://elderec.org" # the base hostname & protocol for your site
+url: "https://elderec.org" # the base hostname & protocol for your site
 permalink: /:year/:month/:title
 
 twitter_username: elderec
