@@ -2,7 +2,7 @@
 title: 'Powershell &#8211; Function to retrieve FSMO role holders'
 author: Jonathan
 layout: post
-permalink: /2015/05/powershell-function-to-retrive-fsmo-role-holders/
+permalink: /2015/05/powershell-function-to-retrieve-fsmo-role-holders/
 categories:
   - Powershell
   - Scripting
