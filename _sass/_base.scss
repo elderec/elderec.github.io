@@ -211,3 +211,20 @@ ul.share-buttons{
 ul.share-buttons li{
   display: inline;
 }
+.sharediv {
+    text-align: center;
+    background: $bgcolor;
+    color: $color;
+    padding: 8px 15px;
+    border-radius: 5px;
+
+    a {
+        font-weight: 700;
+        color: $color;
+        margin-left: 10px;
+
+        &:hover {
+            border-bottom: 1px dashed #fff;
+        }
+      }
+  }
