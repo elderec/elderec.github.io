@@ -11,11 +11,11 @@ twitter_username: elderec
 github_username:  elderec
 
 # highlighter settings
-highlighter: pygments
+highlighter: rouge
 
 # pagination settings
-paginate: 10
-paginate_path: "/page/:num/"
+pagination:
+  enabled: true
 
 # Build settings
 markdown: kramdown
@@ -23,3 +23,5 @@ markdown: kramdown
 # gems to include
 gems:
   - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-paginate-v2
